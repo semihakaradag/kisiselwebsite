@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+  <head>
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <style>
+        .carousel-inner img {
+          height: 500px; /* İstediğiniz yüksekliği buraya yazın */
+          object-fit: cover;
+        }
+      </style>
+    
+    <style>
+      .card {
+          min-height: 600px; /* Kartların en az 300px yüksekliğe sahip olmasını sağlar */
+      }
+    </style>
+
+    <title>Semiha KARADAĞ</title>
+  </head>
+  <body>
+    
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="logo.jpg" alt="" width="70" height="60">
+                    Semiha Karadağ
+                    Kişisel Web Sitem
+                  </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page"  href="index.html">Anasayfa</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="hakkimda.html">Hakkımda</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Bildiğim Programlama Dilleri
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="https://learn.microsoft.com/tr-tr/training/paths/get-started-c-sharp-part-1/" target="_blank">C#</a></li>
+                      <li><a class="dropdown-item" href="https://tr.wikipedia.org/wiki/C%2B%2B" target="_blank">C++</a></li>
+                      <li><a class="dropdown-item" href="https://www.java.com/tr/download/help/whatis_java.html" target="_blank">Java</a></li>
+                      <li><a class="dropdown-item" href="https://coderspace.io/sozluk/flutter" target="_blank">Flutter</a></li>
+                      <li><a class="dropdown-item" href="https://bilginc.com/tr/blog/python-nedir-python-hakkinda-hersey-158/" target="_blank">Python</a></li>
+                      <li><a class="dropdown-item" href="https://www.hostinger.web.tr/rehberler/javascript-nedir" target="_blank">JavaScript</a></li>
+                      <li><a class="dropdown-item" href="https://www.educationforinnovation.org/matlab-nedir-ne-ise-yarar/" target="_blank">Matlab</a></li>
+                      <li><a class="dropdown-item" href="https://coderspace.io/sozluk/SQL" target="_blank">MSSQL</a></li>
+
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="iletisim.html">İletişim</a>
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+        <div class="container-sm mt-3">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="slider8.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="slider6.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="slider3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+       
+        
+          
+              <h3 class="text-center mt-3">Semiha Karadağ'ın Kişisel Web Sitesine HOŞGELDİNİZ..!</h3>
+              <h4 class="text-center mt-5">Yaptığım Projeler</h4>
+
+            <div class="row my-5">
+               <div class="col-sm">
+                <div class="card" >
+                    <img src="slider6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body"> <h5 class="card-text">C# IMAGE PROCESSİNG</h5>
+                      <p class="card-text">Bu C# Form uygulaması, görüntü işleme işlevlerini içerir. Kullanıcılar,
+                         temel ve ileri düzey işlemleri seçip uygulayabilirler. Gri, binary dönüşüm, renk uzayı dönüşümleri 
+                         gibi işlevlerin yanı sıra histogram genişletme, kenar bulma, gürültü temizleme ve bulanıklaştırma 
+                         gibi işlemler de bulunur. Bu projenin amacı, kullanıcıların görüntü işleme işlemlerini kolayca 
+                         gerçekleştirebilmesini sağlamaktır.
+                      </p>
+                    </div>
+                </div>
+               </div>
+               <div class="col-sm">
+                  <div class="card" >
+                    <img src="slider5.jpg"  class="card-img-top" alt="...">
+                    <div class="card-body"> <h5 class="card-text">E-TİCARET VERİ MADENCİLİĞİ ve YAPAY ZEKA SINIFLANDIRMA
+                        PROJESİ</h5>
+                      <p class="card-text">
+                        Bu projede, bir e-ticaret sitesinden veri çekme ve bu verileri yapay
+                        zeka kullanarak sınıflandırma amacıyla bir proje geliştirdim.
+                        Projemin temel hedefi, müşteri alışveriş davranışlarını anlamak ve
+                        bu verileri kullanarak ürün kategorilerini optimize etmekti. Proje,
+                        Python programlama dili ve çeşitli veri madenciliği kütüphaneleri ile
+                        gerçekleştirildi.</p>
+                    </div>
+                  </div>
+               </div>
+               <div class="col-sm">
+                  <div class="card" >
+                    <img src="slider8.jpg" class="card-img-top" alt="...">
+                    <div class="card-body"> <h5 class="card-text">SQL SERVER İLE MARKET YÖNETİM SİSTEMİ GELİŞTİRME PROJESİ</h5>
+                      <p class="card-text">Bu proje, bir marketin operasyonlarını
+                        optimize etmek için geliştirilen bir yazılım sistemidir. Stok yönetimi, satış işlemleri, 
+                        müşteri ilişkileri ve raporlama gibi işlevleri kapsar. SQL Server kullanarak veritabanı işlemleri
+                        gerçekleştirilir.Bu proje, marketlerin operasyonel verimliliğini arttırarak rekabet güçlerini yükseltmeyi hedefler.
+                      </p>
+                    </div>
+                  </div>
+               </div>
+               <div class="col-sm">
+                  <div class="card" >
+                    <img src="slider3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body"> <h5 class="card-text">ASP.NET CORE MVC İLE KURS YÖNETİM UGULAMASI</h5>
+                      <p class="card-text">Bu proje,online kursları yöneten bir web uygulaması geliştirme projesidir.Kullanıcılar,
+                        kursları görüntüleyebilir,kaydolabilir;eğitmenler kurs içeriğini düzenleyebilir ve yöneticiler 
+                        genel işlemleri takip edebilir.Bu proje,eğitim süreçlerini daha etkili hale getirmeyi amaçlar.Uygulama MVC mimarisiyle 
+                        geliştirilir,bu da kod yönetilebilir olmasını sağlar. </p>
+                    </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row mT-23">
+              <div class="col-sm">
+                <div class="card" >
+                  <img src="slider8.jpg" class="card-img-top" alt="...">
+                  <div class="card-body"> <h5 class="card-text">YAPAY ARI KOLONİSİ ALGORİTMASI</h5>
+                    <p class="card-text">Yapay Arı Kolonisi Algoritması (ABC), bal arılarının yiyecek arama davranışlarını 
+                      modelleyerek optimizasyon problemlerini çözer. Bu projede, kullanıcıdan koloni boyutu, alt ve üst sınır, 
+                      deneme sayısı ve çevrim sayısı gibi parametreler alınarak belirli bir amaç fonksiyonu optimize edilir.
+                       İşçi, gözcü ve keşif arılarının etkileşimiyle çözümler iyileştirilir. C# form uygulaması, kullanıcıdan 
+                       aldığı parametrelerle algoritmayı çalıştırır, en iyi x1 ve x2 değerlerini, amaç fonksiyonu (f(x)) 
+                       ve fit değerini hesaplar ve bu sonuçları grafikle birlikte kullanıcıya sunar.. </p>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="col-sm">
+                  <div class="card" >
+                    <img src="slider5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body"> <h5 class="card-text">PARÇACIK SÜRÜ OPTİMİZASYON</h5>
+                      <p class="card-text">Parçacık Sürü Optimizasyonu (PSO), doğadan esinlenerek geliştirilmiş bir optimizasyon algoritmasıdır.
+                        Kullanıcı tarafından belirlenen parametrelerle (parçacık sayısı, jenerasyon sayısı, c1 ve c2 değerleri) bir amaç 
+                        fonksiyonunu optimize etmek için kullanılır. Projede, PSO algoritması C# form uygulamasıyla gerçekleştirilmiştir. 
+                        Uygulama, parçacıkların hareketini simüle ederek her jenerasyonda en iyi çözüme doğru ilerler. Çıktı olarak, en iyi 
+                        amaç fonksiyonu değeri ve bu değerlerin grafiksel gösterimi sağlanır. Bu proje, PSO algoritmasını anlamak ve optimizasyon 
+                        problemlerini çözmek için etkili bir araç sunar. </p>
+                    </div>
+                  </div>
+              </div>
+                
+                  <div class="col-sm">
+                      <div class="card" >
+                        <img src="slider3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body"> <h5 class="card-text">GLAM'S PROJESİ</h5>
+                          <p class="card-text">Bu uygulama, kullanıcıların kişisel bakım ihtiyaçlarını karşılayacak işletmeleri kolayca bulmalarını sağlayan bir web platformudur. 
+                            Kullanıcılar, lokasyon bilgilerini girdikten sonra istedikleri hizmeti seçebilir ve bu hizmeti sunan işletmelerin 
+                            profillerini görüntüleyebilirler. Her işletme profili, görseller, kullanıcı yorumları, yıldız derecelendirmeleri gibi 
+                            detaylı bilgiler içerir. Bu platform, kuaförlerden, berberlere ve güzellik merkezlerine kadar çeşitli kişisel bakım 
+                            işletmelerini kapsar. Geliştirme sürecinde Visual Studio kullanılmış olup, ASP.NET Core ve MVC mimarisi kullanılarak 
+                            uygulama geliştirilmiştir.
+                          </p>
+                        </div>
+                      </div>
+                  </div>
+                    <div class="col-sm">
+                        <div class="card" >
+                          <img src="slider6.jpg" class="card-img-top" alt="...">
+                          <div class="card-body"> <h5 class="card-text">KRİPTOLOJİ ŞİFRELEME ALGORTİMALARI PROJESİ</h5>
+                            <p class="card-text">Bu kriptoloji projesi, C# ile çeşitli şifreleme algoritmalarının uygulanmasını içerir. 
+                              Kullanıcı, metni ve bir anahtarı girdikten sonra şifreli metni üretebilir ve aynı şekilde şifreli metni ve 
+                              doğru anahtarı girerek orijinal metni elde edebilir. Proje, 4Kare, Doğrusal, Kaydırmalı, Permütasyon, Rota,
+                               Sezar, Vigenere, Yer Değiştirme, Yerine Koyma ve Z-Gzag gibi farklı şifreleme tekniklerini kapsar. Her 
+                               algoritma için bu süreç geçerlidir, böylece kullanıcı istediği algoritmayı seçebilir ve şifreleme/deşifreleme 
+                               işlemlerini gerçekleştirebilir. Bu proje, farklı şifreleme algoritmalarını uygulayarak kriptoloji konusunda 
+                               temel anlayışı geliştirmek ve pratik deneyim kazanmak için ideal bir ortam sunar.
+                            </p>
+                          </div>
+                        </div>
+                      </div>  
+                  
+            </div>
+            
+            
+                
+            
+        </div>
+
+        <script>
+          window.onload = function() {
+              // Tüm kartları seç
+              var cards = document.querySelectorAll('.card');
+  
+              // En yüksek kartın yüksekliğini bul
+              var maxHeight = 0;
+              cards.forEach(function(card) {
+                  var height = card.offsetHeight;
+                  if (height > maxHeight) {
+                      maxHeight = height;
+                  }
+              });
+  
+              // Tüm kartlara en yüksek yüksekliği uygula
+              cards.forEach(function(card) {
+                  card.style.height = maxHeight + 'px';
+              });
+          };
+      </script>
+   
+
+        <footer class="bg-dark text-white mt-5 p-4 text-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <h5>İletişim</h5>
+                <p>Email: semiha.soma@gmail.com</p>
+                <p>Telefon: +90 531 814 8317</p>
+              </div>
+              <div class="col-md-4">
+                <h5>Adres</h5>
+                <p>1234 Soma, Manisa, Türkiye</p>
+                <p>1234 Selçuklu, Konya, Türkiye</p>
+              </div>
+              <div class="col-md-4">
+                <h5>Sosyal Medya</h5>
+                <a href="iletisim.html" class="text-white">Instagram</a><br>
+                <a href="iletisim.html" class="text-white">Linkedin</a><br>
+                <a href="iletisim.html" class="text-white">Github</a>
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-md-12">
+                <p>&copy; 2024 Semiha KARADAĞ. Tüm hakları saklıdır.</p>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+   
+  </body>
+</html>
